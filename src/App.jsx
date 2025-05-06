@@ -1,6 +1,7 @@
 
 import './App.css'
 import Carousel from './components/Carousel'
+import CarouselPromo from './components/CarouselPromo'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import LivroList from './components/LivrosList'
@@ -22,6 +23,7 @@ function App() {
         <h1 className='self-center'>Livros</h1>
       <LivroList/>
       </div>
+      <CarouselPromo/>
       </div>
       <Footer/>
     </>
